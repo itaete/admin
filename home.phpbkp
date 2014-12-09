@@ -1,0 +1,45 @@
+<?php include 'protege.php'?>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Home - Login Box Shake Effect</title>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id="main">
+<h1>Welcome to Home Page</h1>
+<h1>
+<?php 
+
+/*
+$id = $_SESSION['ID'];
+$login = $_SESSION['Login'];
+$senha = $_SESSION['Senha'];
+$Nome = $_SESSION['Nome'];
+$email = $_SESSION['Email'];
+$sexo = $_SESSION['Sexo'];
+$nascimento = $_SESSION['DataNasc'];
+$pais = $_SESSION['Pais'];
+$estado = $_SESSION['Estado'];
+$cidade = $_SESSION['Cidade'];
+*/
+echo $id.'<br>';
+echo $login.'<br>';
+echo $senha.'<br>';
+echo $nome.'<br>';
+echo $email.'<br>';
+
+
+
+
+?>
+
+
+
+
+</h1>
+<a href="logout.php">Logout</a>
+</div>
+</body>
+</html>
